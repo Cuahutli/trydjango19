@@ -79,5 +79,7 @@ http://127.0.0.1:8000/posts/create/
 **A Disfrutar del proyecto**
 
 
+> **Nota.-** Probé el proyecto con Django 1.10 y Django 1.11 y funciona sin problemas.
+
 
 
