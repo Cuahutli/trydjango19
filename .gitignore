@@ -105,3 +105,7 @@ venv.bak/
 
 .vscode/
 
+media_cdn/**/*.png
+media_cdn/**/*.jpg
+
+*.sqlite3
