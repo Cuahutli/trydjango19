@@ -21,11 +21,8 @@ from posts.views import post_list
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    # url(r'^posts/$', 'posts.views.post_home'), # sin archivo urls.py en proyecto
     url(r'^posts/', include('posts.urls', namespace="posts")), # con archivo urls.py en proyecto
     url(r'^$', post_list, name="post-list"),
-    #url(r'^posts/$', '<appname>.views.<function>'),
-
 ]
 
 if settings.DEBUG:

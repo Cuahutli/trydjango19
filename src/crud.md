@@ -2,6 +2,9 @@
 RETRIEVE = GET -- List / Search
 
 CREATE	= POST --MAKE NEW
+
 UPDATE = PUT/PATCH -- EDIT
+
 DELETE = DELETE -- DELETE
+
 
